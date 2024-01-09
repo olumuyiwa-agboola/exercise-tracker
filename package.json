@@ -1,0 +1,39 @@
+{
+	"name": "exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"author": {
+		"name": "Olumuyiwa Agboola",
+		"email": "agboolaod@gmail.com",
+		"github": "https://github.com/olumuyiwa-agboola"
+	},
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"dev": "nodemon index.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"cors": "^2.8.5",
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongodb": "^6.3.0",
+		"mongoose": "^8.0.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/olumuyiwa-agboola/exercise-tracker.git"
+	},
+	"bugs": {
+		"url": "https://github.com/olumuyiwa-agboola/exercise-tracker/issues"
+	},
+	"homepage": "https://github.com/olumuyiwa-agboola/exercise-tracker#readme",
+	"license": "MIT",
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	},
+	"keywords": [
+		"node",
+		"express"
+	]
+}
